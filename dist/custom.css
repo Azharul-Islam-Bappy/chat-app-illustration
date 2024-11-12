@@ -1,0 +1,19 @@
+p{
+  font-size: 10px;
+}
+div.-custom-style{
+  & span{
+    font-size: 10px;
+  }
+}
+p.text-base{
+  font-size: 16px;
+}
+
+/* media queries */ 
+@media (min-height: 1040px) {
+  div#app{
+    
+    max-height: 756px;
+  }
+}
